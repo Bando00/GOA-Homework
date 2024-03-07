@@ -1,0 +1,22 @@
+varieble-ცვლადი
+
+string-პრჭყალებში მოქცეული ტექსტი მაგ:"car"
+
+quotation mark - ბრჭყალები ""
+
+qoutes - ბრჭყალები ""
+
+integer - მთელი რიცხვი მაგ: 2
+
+float - წილადი რიცხვი მაგ: 3.14
+
+concatination - სტრინგების შეერთება
+
+print ("360" + "360") = 360360
+
+parenthesis - () ფრჩხილები
+
+declare - ცვლადის დეკლალირება (შექმნა)
+
+str=string
+int=integer
