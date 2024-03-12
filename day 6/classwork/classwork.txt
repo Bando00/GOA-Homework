@@ -1,0 +1,12 @@
+print(5 + "Nika") = Error
+
+print(5 + "5") = TypeError 
+
+print(float("10.5") + 2) = 12.5
+
+birth_year = input()
+print(type(birth_year)) = str type 
+
+implicit = ავტომატიკური
+explicit = მექანიკური
+
