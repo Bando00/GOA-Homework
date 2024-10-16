@@ -1,0 +1,18 @@
+body{
+    background-color: darkblue;
+}
+
+
+
+.parent{
+    height: 700px;
+    width: 1000px;
+}
+
+.child{
+    height: 50%;
+    width: 50%;
+    background-color: yellow;
+}
+
+
