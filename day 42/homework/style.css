@@ -1,0 +1,42 @@
+
+.perfect-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .perfect-table thead {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .perfect-table th {
+    padding: 12px;
+    font-size: 18px;
+  }
+  
+  
+  .perfect-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  
+  .perfect-table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  
+  .perfect-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  
+  .perfect-table th {
+    font-weight: bold;
+  }
+  
