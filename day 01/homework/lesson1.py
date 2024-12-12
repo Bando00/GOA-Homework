@@ -1,2 +1,1 @@
-# GOA ON TOP!
-# :D
+print("my name is nika")
