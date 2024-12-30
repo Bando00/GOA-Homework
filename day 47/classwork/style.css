@@ -1,0 +1,51 @@
+/* flexbox layout */
+
+.profile{
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
+
+.parent-div{
+    display: flex;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 5px;
+}
+
+
+.paraghraps{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+/* column - ვერტიკალური ღერძი, row - ჰორიზონტალური ღერძი */
+
+
+/* display
+   flex
+   flex-direction
+   justify-content
+   align-items
+   gap
+/*
+
+
+
