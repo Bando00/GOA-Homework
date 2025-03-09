@@ -1,0 +1,42 @@
+/* transform - გარდაქმნა - ტრანსფორმაცია */
+
+
+body{
+    display: flex;
+justify-content:center;
+align-items: center;
+height: 100vh;
+
+}
+
+
+
+
+
+.square{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    transition: 1s;
+    cursor: pointer;
+    background-image:url(https://cdn.mos.cms.futurecdn.net/39CUYMP8vJqHAYGVzUghBX.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+
+.square:hover{
+    transform: scale(5) rotate(1480deg) translateX(200px);
+    
+    /*skew(45deg) */
+}
+
+.square:active{
+    transform: scale(0.5) translateX(10px);
+
+}
+
+
+
