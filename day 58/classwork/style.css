@@ -1,0 +1,45 @@
+div{
+    width: 400px;
+    height: 400px;
+    animation-name: Animation;
+    animation-duration: 2s;
+    background-color: red;
+    animation-iteration-count: infinite; 
+
+}
+
+
+
+@keyframes Animation {
+    from{
+        background-color: red;
+
+    }
+    to{
+        background-color: royalblue
+    }   
+
+    
+}
+
+
+Div{
+    width: 300px;
+    height: 300px;
+    animation-name: Animation2;
+    animation-duration: 5s;
+   background-color: yellowgreen;
+   animation-iteration-count: infinite;        
+
+}
+
+@keyframes Animation2 {
+    from{
+        background-color: yellowgreen;
+        transform: rotate(0deg);
+    }
+    to{
+        background-color: yellow;
+        transform: rotate(360deg);
+    }
+}

@@ -10,5 +10,4 @@ def number_to_string(num):
     return str(num)
 
 
-def solution(string):
-    pass solutio     
+     
