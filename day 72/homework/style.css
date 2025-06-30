@@ -1,0 +1,33 @@
+body {
+    .parent {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr); /* 4 columns */
+      gap: 15px;
+      border: 3px solid green;
+      padding: 10px;
+      width: 500px;
+    }
+
+    .child {
+      height: 80px;
+      background-color: red;
+    }
+
+    /* 2-ე რიგის ელემენტებს ვცვლით ფერს */
+    .child:nth-child(5) {
+      background-color: blue;
+    }
+
+    .child:nth-child(6) {
+      background-color: orange;
+    }
+
+    .child:nth-child(7) {
+      background-color: purple;
+    }
+
+    .child:nth-child(8) {
+      background-color: tea
+    }
+    
+}
